@@ -1,0 +1,88 @@
+/* Global Styles */
+/*@import url('https://fonts.googleapis.com/css2?family=Aguero&display=swap');*/
+body {
+    font-family: 'Casanova', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: rgba(0, 0, 0, 0.774);
+    text-align: center;
+}
+
+/*Navifation Bar sytling*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.774);
+    position: fixed;
+    width: 90%;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: rgb(255, 177, 110);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 177, 110);
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 213, 176);
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, rgba(0, 0, 0, 0.815));
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.774);
+}
+
+.hero p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    background: rgba(0, 0, 0, 0.774);
+    color: white;
+    text-decoration: none;
+    border-radius: 60px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #c78648;
+}
